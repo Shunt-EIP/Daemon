@@ -1,5 +1,5 @@
 {
-    "author": "Nicolas <bertra_n@etna-alternance.net",
+    "author": "Nicolas Bertrand <bertra_n@etna-alternance.net",
     "name": "shuntd",
     "description": "Daemon providing REST interface to common torrent clients.",
     "version": "0.0.1",
@@ -7,10 +7,12 @@
         "type": "git",
         "url": "git://github.com/etna-bertra-n/Daemon.git"
     },
-    "main": "lib/daemon",
     "dependencies": {
+        "coffee-script": "1.6.3",
         "transmission": ">= 0.2.5",
-        "express": "3.x"
+        "express": "3.4.x",
+        "passport": "0.1.17",
+        "passport-http": "0.2.2"
     },
     "engines": {}
 }
